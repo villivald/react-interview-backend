@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const TodoSchema = new mongoose.Schema({
   id: {
-    type: Number,
+    type: String || Number,
   },
   name: {
     type: String,
