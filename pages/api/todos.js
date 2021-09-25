@@ -16,7 +16,7 @@ const initMiddleware = (middleware) => {
 
 const cors = initMiddleware(
   Cors({
-    methods: ["GET", "POST", "OPTIONS"],
+    methods: ["GET", "POST", "OPTIONS", "DELETE"],
   })
 );
 
